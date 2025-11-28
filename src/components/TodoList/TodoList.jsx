@@ -34,7 +34,6 @@ const TodoList = () => {
     return (
         <>
             <div style={styles.Container}>
-               
                     <input type="text" name="todo" id="todo" value={newTask} onChange={(event) => setNewTask(event.target.value)} />
                     <button onClick={addTask} style={styles.button}>savetask</button>
                     <ul>{todo.map((task, index) => (
