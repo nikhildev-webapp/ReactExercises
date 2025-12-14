@@ -12,7 +12,7 @@ const TodoList = () => {
          button: {
               padding: '5px',
               borderRadius: '10px',
-              borderColor: '#f01212ff',
+              borderColor: '#fff',
               margin:'5px'
           }
     }
