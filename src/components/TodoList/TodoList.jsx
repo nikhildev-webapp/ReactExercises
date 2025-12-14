@@ -42,7 +42,7 @@ const TodoList = () => {
                             <button onClick={()=>deleteTask(index)}>Delete</button>
                         </li>
                     ))}</ul>
-               
+               <h1>{todo.length} tasks</h1>
             </div>
         </>
   )
