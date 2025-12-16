@@ -24,7 +24,7 @@ const filterBelow1000 = () => {
   return (
       <>
         <button onClick={filterBelow1000} style={{borderRadius:'10px', padding:'10px',borderColor:'#fff', margin:'10px'}}>Filter Below 1000</button>
-        <button onClick={showAllProducts} style={{borderRadius:'10px', padding:'10px',borderColor:'#fff', margin:'10px'}}>Show All Products</button>
+        <button onClick={showAllProducts} style={{borderRadius:'10px', padding:'10px',borderColor:'#fff', margin:'10px'}  }>Show All Products</button>
         <ul>
           {products.map(product => (
             <li key={product.id}>
