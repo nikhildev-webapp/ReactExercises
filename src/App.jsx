@@ -1,11 +1,11 @@
 import './App.css'
-import ColorPicker from './components/ColorPicker/ColorPicker'
+import PasswordVisibility from './components/PasswordVisibility/PasswordVisibility'
 
 function App() {
   return (
     <>
       <h1 style={{ textAlign: 'center' }}>ReactMiniExercises</h1>
-      <ColorPicker/>
+      <PasswordVisibility/>
     </>
   )
 }
