@@ -1,10 +1,11 @@
 import './App.css'
-import ProfileCard from './components/ProfileCard/ProfileCard'
+import ColorPicker from './components/ColorPicker/ColorPicker'
+
 function App() {
   return (
     <>
       <h1 style={{ textAlign: 'center' }}>ReactMiniExercises</h1>
-      
+      <ColorPicker/>
     </>
   )
 }
