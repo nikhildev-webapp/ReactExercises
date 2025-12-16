@@ -6,7 +6,7 @@ function App() {
       <h1 style={{ textAlign: 'center' }}>ReactMiniExercises</h1>
       <ProfileCard avatar="👨‍💻" name='Nikhil' role='Developer'/>
       <ProfileCard avatar="👨‍💻" name='Harsh' role='Data Scientist'/>
-      <ProfileCard avatar="👨‍💻" name='Nikhil' role='Electronic Engineer'/>
+      <ProfileCard avatar="👨‍💻" name='Inderjeet' role='Electronic Engineer'/>
     </>
   )
 }
