@@ -1,10 +1,12 @@
 import './App.css'
-import LiveTextPreview from './components/LiveTextPreview/LiveTextPreview'
+import ProfileCard from './components/ProfileCard/ProfileCard'
 function App() {
   return (
     <>
       <h1 style={{ textAlign: 'center' }}>ReactMiniExercises</h1>
-      <LiveTextPreview/>  
+      <ProfileCard avatar="👨‍💻" name='Nikhil' role='Developer'/>
+      <ProfileCard avatar="👨‍💻" name='Harsh' role='Data Scientist'/>
+      <ProfileCard avatar="👨‍💻" name='Nikhil' role='Electronic Engineer'/>
     </>
   )
 }
