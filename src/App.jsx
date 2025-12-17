@@ -1,5 +1,4 @@
 import './App.css'
-import ImageGallerySwitcher from './components/ImageGallerySwitcher/ImageGallerySwitcher'
 import StarRating from './components/StarRating.jsx/StarRating'
 
 function App() {
